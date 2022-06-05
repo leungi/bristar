@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;"
+title: "Dried Goods"
 output: html_document
 ---
 
@@ -11,5 +11,12 @@ knitr::opts_chunk$set(echo = FALSE,
 box::use(R/util[render_image_html])
 ```
 
-### **Bristar Intl Trading Ltd.**
-An importing and distribution company focused on houseware, canned, and dried goods from Asia.
+:::: {class='fluid-row'}
+
+::: {class='col-md-6'}
+```{r fig.alt="test", fig.align="center"}
+render_image_html("images/dried-goods/")
+```
+:::
+
+:::
