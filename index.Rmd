@@ -12,4 +12,4 @@ box::use(R/util[render_image_html])
 ```
 
 ## Bristar International Trading Ltd.
-An importing and distribution company focused on canned, dried food and housewares from Asia.
+An importing and distribution company focused on houseware, canned, and dried goods from Asia.
