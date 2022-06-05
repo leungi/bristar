@@ -12,7 +12,7 @@ box::use(R/util[render_image_html])
 ```
 
 
-## Bristar International Trading Ltd.
+#### **Bristar Intl Trading Ltd.**
 **Address**
 12440 Bridgeport Road, Richmond, B.C., V6V 1J5
 
@@ -23,4 +23,4 @@ box::use(R/util[render_image_html])
 +1-604-273-5820
 
 **Email**
-sandychan@bristar.ca
+admin@bristar.ca
