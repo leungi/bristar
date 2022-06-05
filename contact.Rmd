@@ -1,6 +1,8 @@
 ---
 title: "&nbsp;"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -9,6 +11,10 @@ knitr::opts_chunk$set(echo = FALSE,
                       results = "asis")
 
 box::use(R/util[render_image_html])
+
+box::use(
+  leaflet[leaflet, addProviderTiles, providers, addMarkers, popupOptions, labelOptions, icons, makeIcon],
+  htmltools[HTML])
 ```
 
 
@@ -24,3 +30,30 @@ box::use(R/util[render_image_html])
 
 **Email**
 admin@bristar.ca
+
+```{r map}
+my_icon <- icons(iconUrl = "images/logo/logo.jpg",
+                 iconWidth = 100,
+                 iconHeight = 65)
+
+popup_text <- paste(sep = "<br/>",
+  "<b><a href='http://www.bristar.ca'>Bristar Intl Trading Ltd.</a></b>",
+  "12440 Bridgeport Road",
+  "Richmond, B.C. V6V 1J5",
+  "Canada"
+)
+
+leaflet() |>
+  addProviderTiles(providers$Stamen.Toner) |>
+  addMarkers(
+    lng = -123.08595,
+    lat = 49.19190,
+    icon = my_icon,
+    label = HTML(popup_text),
+    options = popupOptions(closeButton = FALSE),
+    labelOptions = labelOptions(noHide = TRUE,
+                                direction = "top",
+                                offset = c(0, -20))
+  )
+```
+

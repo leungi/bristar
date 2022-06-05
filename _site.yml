@@ -1,21 +1,33 @@
 name: "bristar"
 output_dir: "docs"
 navbar:
-  title: "Bristar"
+  title: "<img id=\"logo\" style=\"width: 40px; height: auto;\" src=\"images/logo/logo.jpg\" />"
+  logo:
+    image: images/logo/logo.svg
   left:
     - text: "Home"
       href: index.html
     - text: "Product"
       menu:
-        - text: "Baking"
-          href: baking.html
-        - text: "Canned Meats"
-          href: canned-meats.html
-        - text: "Household"
-          href: household.html
+        - text: "Bake Goods"
+          href: bake-goods.html
+        - text: "Beverage"
+          href: beverage.html
+        - text: "Condiments"
+          href: condiments.html
+        - text: "Canned Goods"
+          href: canned-goods.html
+        - text: "Dried Goods"
+          href: dried-goods.html
+        - text: "Houseware"
+          href: houseware.html
+        - text: "Rice/Noodle/Grain/Bean"
+          href: rice-noodle-grain-bean.html
+        - text: "Snack"
+          href: snack.html
     - text: "Contact"
       href: contact.html
 output:
   html_document:
-    theme: cosmo
+    theme: simplex
 exclude: ["R", "renv", "renv.lock"]
