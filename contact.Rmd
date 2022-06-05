@@ -11,5 +11,16 @@ knitr::opts_chunk$set(echo = FALSE,
 box::use(R/util[render_image_html])
 ```
 
+
 ## Bristar International Trading Ltd.
-An importing and distribution company focused on canned, dried food and housewares from Asia.
+**Address**
+12440 Bridgeport Road, Richmond, B.C., V6V 1J5
+
+**Telephone**
++1-604-244-7234
+
+**Fax**
++1-604-273-5820
+
+**Email**
+sandychan@bristar.ca

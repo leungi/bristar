@@ -1,12 +1,21 @@
-name: "cars"
+name: "bristar"
 output_dir: "docs"
 navbar:
-  title: "Cars"
+  title: "Bristar"
   left:
     - text: "Home"
       href: index.html
-    - text: "Demo"
-      href: demo.html
+    - text: "Product"
+      menu:
+        - text: "Baking"
+          href: baking.html
+        - text: "Canned Meats"
+          href: canned-meats.html
+        - text: "Household"
+          href: household.html
+    - text: "Contact"
+      href: contact.html
 output:
   html_document:
     theme: cosmo
+exclude: ["R", "renv", "renv.lock"]

@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;"
+title: "Baking"
 output: html_document
 ---
 
@@ -11,5 +11,12 @@ knitr::opts_chunk$set(echo = FALSE,
 box::use(R/util[render_image_html])
 ```
 
-## Bristar International Trading Ltd.
-An importing and distribution company focused on canned, dried food and housewares from Asia.
+:::: {class='fluid-row'}
+
+::: {class='col-md-6'}
+```{r fig.alt="test", fig.align="center"}
+render_image_html("images/baking/")
+```
+:::
+
+:::
