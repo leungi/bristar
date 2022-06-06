@@ -14,11 +14,15 @@ box::use(R/util[render_image_html])
 
 box::use(
   leaflet[leaflet, addProviderTiles, providers, addMarkers, popupOptions, labelOptions, icons, makeIcon],
-  htmltools[HTML])
+  htmltools[HTML],
+  knitr[include_graphics])
 ```
 
 
-#### **Bristar Intl Trading Ltd.**
+```{r logo, fig.alt='Bristar Intl Trading Ltd.', out.width='20%'}
+include_graphics("images/logo/logo-no-background.svg")
+```
+
 **Address**
 12440 Bridgeport Road, Richmond, B.C., V6V 1J5
 
@@ -31,7 +35,10 @@ box::use(
 **Email**
 admin@bristar.ca
 
-```{r map, out.width="100%"}
+<br>
+<br>
+
+```{r map, out.width='100%'}
 my_icon <- icons(iconUrl = "images/logo/logo-no-background.svg",
                  iconWidth = 100,
                  iconHeight = 65)

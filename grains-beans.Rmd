@@ -1,5 +1,5 @@
 ---
-title: "Rice/Noodle/Grain/Bean"
+title: "Grains and Beans"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ box::use(R/util[render_image_html])
 
 ::: {class='col-md-6'}
 ```{r fig.alt="test", fig.align="center"}
-render_image_html("images/rice-noodle-grain-bean")
+render_image_html("images/grains-beans")
 ```
 :::
 

@@ -9,7 +9,12 @@ knitr::opts_chunk$set(echo = FALSE,
                       results = "asis")
 
 box::use(R/util[render_image_html])
+
+box::use(knitr[include_graphics])
 ```
 
-### **Bristar Intl Trading Ltd.**
+```{r logo, fig.alt='Bristar Intl Trading Ltd.', out.width='20%'}
+include_graphics("images/logo/logo-no-background.svg")
+```
+
 An importing and distribution company focused on houseware, canned, and dried goods from Asia.

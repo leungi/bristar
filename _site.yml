@@ -1,14 +1,12 @@
 name: "bristar"
 output_dir: "docs"
 navbar:
-  title: "<img id=\"logo\" style=\"width: 60px; height: auto;\" src=\"images/logo/logo-no-background.svg\" />"
+  title: "<img id=\"logo\" style=\"width: 100px; height: auto; position: relative; top: -5px;\" src=\"images/logo/logo-no-background.svg\" />"
   left:
     - text: "Home"
       href: index.html
     - text: "Product"
       menu:
-        - text: "Bake Goods"
-          href: bake-goods.html
         - text: "Beverage"
           href: beverage.html
         - text: "Condiments"
@@ -17,10 +15,14 @@ navbar:
           href: canned-goods.html
         - text: "Dried Goods"
           href: dried-goods.html
+        - text: "Dried Noodle"
+          href: dried-noodle.html
+        - text: "Grains and Beans"
+          href: grains-beans.html
+        - text: "Health and Beauty"
+          href: health-beauty.html
         - text: "Houseware"
           href: houseware.html
-        - text: "Rice/Noodle/Grain/Bean"
-          href: rice-noodle-grain-bean.html
         - text: "Snack"
           href: snack.html
     - text: "Brand"

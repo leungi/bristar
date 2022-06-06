@@ -1,5 +1,5 @@
 ---
-title: "Bake Goods"
+title: "Dried Noodle"
 output: html_document
 ---
 
@@ -15,7 +15,7 @@ box::use(R/util[render_image_html])
 
 ::: {class='col-md-6'}
 ```{r fig.alt="test", fig.align="center"}
-render_image_html("images/bake-goods/")
+render_image_html("images/dried-noodle")
 ```
 :::
 
