@@ -31,8 +31,8 @@ box::use(
 **Email**
 admin@bristar.ca
 
-```{r map}
-my_icon <- icons(iconUrl = "images/logo/logo.jpg",
+```{r map, out.width="50%"}
+my_icon <- icons(iconUrl = "images/logo/logo-no-background.svg",
                  iconWidth = 100,
                  iconHeight = 65)
 
@@ -44,7 +44,7 @@ popup_text <- paste(sep = "<br/>",
 )
 
 leaflet() |>
-  addProviderTiles(providers$Stamen.Toner) |>
+  addProviderTiles(providers$Stamen.TonerLite) |>
   addMarkers(
     lng = -123.08595,
     lat = 49.19190,

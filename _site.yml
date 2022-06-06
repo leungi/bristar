@@ -1,9 +1,7 @@
 name: "bristar"
 output_dir: "docs"
 navbar:
-  title: "<img id=\"logo\" style=\"width: 40px; height: auto;\" src=\"images/logo/logo.jpg\" />"
-  logo:
-    image: images/logo/logo.svg
+  title: "<img id=\"logo\" style=\"width: 60px; height: auto;\" src=\"images/logo/logo-no-background.svg\" />"
   left:
     - text: "Home"
       href: index.html
@@ -25,6 +23,8 @@ navbar:
           href: rice-noodle-grain-bean.html
         - text: "Snack"
           href: snack.html
+    - text: "Brand"
+      href: brand.html
     - text: "Contact"
       href: contact.html
 output:
