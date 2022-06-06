@@ -31,7 +31,7 @@ box::use(
 **Email**
 admin@bristar.ca
 
-```{r map, out.width="50%"}
+```{r map, out.width="100%"}
 my_icon <- icons(iconUrl = "images/logo/logo-no-background.svg",
                  iconWidth = 100,
                  iconHeight = 65)
